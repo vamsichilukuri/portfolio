@@ -122,8 +122,8 @@ const Projects = () => {
 								return (
 									<Grid
 										item
-										xs={6}
-										sm={4}
+										xs={11}
+										sm={11}
 										md={3}
 										lg={3}
 										className="project"
@@ -197,8 +197,8 @@ const Projects = () => {
 								return (
 									<Grid
 										item
-										xs={6}
-										sm={4}
+										xs={11}
+										sm={11}
 										md={3}
 										lg={3}
 										className="project"
@@ -272,8 +272,8 @@ const Projects = () => {
 								return (
 									<Grid
 										item
-										xs={6}
-										sm={4}
+										xs={11}
+										sm={11}
 										md={3}
 										lg={3}
 										className="project"

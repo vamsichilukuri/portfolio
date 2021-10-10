@@ -13,6 +13,7 @@
 				font-family: "Acme", sans-serif;
 				text-decoration: underline;
 				text-decoration-color: rgb(197, 197, 197);
+				width: 98%;
 			}
 			.projects {
 				border-bottom: 2px solid rgb(121, 121, 121);
@@ -27,8 +28,17 @@
 							justify-content: space-evenly;
 						}
 					}
+
+					@media only screen and (max-width: 768px) {
+						margin: 5px;
+						max-width: unset;
+					}
 				}
 			}
+		}
+
+		@media only screen and (max-width: 768px) {
+			margin: 0;
 		}
 	}
 }
