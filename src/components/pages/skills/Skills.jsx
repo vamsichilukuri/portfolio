@@ -7,7 +7,7 @@ const Skills = () => {
 	return (
 		<div className="skills_main">
 			<h2>Skills</h2>
-			<div className="skills">
+			<div className="skills" data-aos="fade-up" data-aos-duration="1500">
 				<ul>
 					<li>
 						Capable of working in multiple projects and handling
