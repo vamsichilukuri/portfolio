@@ -49,7 +49,7 @@ function Profile() {
 									<li>Date of Birth</li>
 									<li>Gender</li>
 									<li>Designation</li>
-									<li>Prodession</li>
+									<li>Profession</li>
 									<li>Experience</li>
 									<li>Nationality</li>
 									<li>Languages</li>
