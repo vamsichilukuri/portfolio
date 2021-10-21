@@ -4,7 +4,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 
 //-----> Image's & Icon's
-import angularIcon from "./icons/angular.png";
+// import angularIcon from "./icons/angular.png";
 import awsIcon from "./icons/amazon-web-services.png";
 import css3Icon from "./icons/css3.png";
 import digitaloceanIcon from "./icons/digitalocean.png";
@@ -19,10 +19,13 @@ import expressJsIcon from "./icons/expressjs.png";
 import pm2Logo from "./icons/pm2.png";
 import npmIcon from "./icons/npm.png";
 import reactJsIcon from "./icons/react-js.png";
-import reactNativeIcon from "./icons/react-native.png";
+// import reactNativeIcon from "./icons/react-native.png";
 import nginx from "./icons/nginx.png";
 import gitIcon from "./icons/git.png";
 import githubIcon from "./icons/github.gif";
+import bitBucket from "./icons/bitbucket.png";
+import gitLab from "./icons/gitlab.png";
+import dynamoDB from "./icons/dynamoDB.png";
 
 //-----> SCSS
 import "./tools.scss";
@@ -42,7 +45,7 @@ export default function About() {
 							I'm a Full-stack developer. i build <b>Web</b> &
 							<b> Mobile</b> applications. works with both the
 							frontend, backend and deployment of a website or
-							application. Provide an end-to-end service for 1+
+							application. Provide an end-to-end service for 2+
 							years. Also work on microservices.
 						</p>
 					</div>
@@ -65,17 +68,17 @@ export default function About() {
 								<img src={javascriptIcon} alt="javascript" />
 							</div>
 							<div className="web-frameworks-block">
-								<h4> REACT.JS & ANGULAR</h4>
+								<h4> REACT.JS </h4>
 								<img src={reactJsIcon} alt="reactJs" />
-								<img src={angularIcon} alt="angular" />
+								{/* <img src={angularIcon} alt="angular" /> */}
 							</div>
-							<div className="mobile-frameworks-block">
+							{/* <div className="mobile-frameworks-block">
 								<h4>REACT NATIVE </h4>
 								<img
 									src={reactNativeIcon}
 									alt="reactNativeIcon"
 								/>
-							</div>
+							</div> */}
 						</div>
 					</Grid>
 					<Grid
@@ -100,8 +103,9 @@ export default function About() {
 								/>
 							</div>
 							<div className="databases">
-								<h4>MONOGDB & MYSQL</h4>
+								<h4>MONOGDB, DYNAMODB & MYSQL</h4>
 								<img src={mongodbIcon} alt="mongodbIcon" />
+								<img src={dynamoDB} alt="dynamodb" />
 								<img src={mySqlIcon} alt="mySqlIcon" />
 							</div>
 						</div>
@@ -165,9 +169,11 @@ export default function About() {
 							className="vcs"
 						>
 							<h2>VERSION CONTROL SYSTEM</h2>
-							<h4> GIT </h4>
+							<h4> GIT, GITHUB, GITLAB & BITBUCKET</h4>
 							<img src={gitIcon} alt="gitIcon" />
 							<img src={githubIcon} alt="githubIcon" />
+							<img src={gitLab} alt="gitLab" />
+							<img src={bitBucket} alt="bitBucket" />
 						</div>
 					</Grid>
 				</Grid>

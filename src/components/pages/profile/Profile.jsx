@@ -80,7 +80,7 @@ function Profile() {
 									<li>Male</li>
 									<li>Full Stack Developer</li>
 									<li>Software ( IT )</li>
-									<li>1 year 3 months</li>
+									<li>2 years 1 month</li>
 									<li>Indian</li>
 									<li>English, Telugu</li>
 									<li>Panguluru ( Village ),</li>
@@ -151,14 +151,8 @@ function Profile() {
 							LLP:
 						</span>
 						<ul>
-							<li>
-								Develop FRONTEND ( React.js & Angular)
-								applications.
-							</li>
-							<li>
-								Develop BACKEND ( Node.js, Express & MongoDB )
-								applications.
-							</li>
+							<li>Develop FRONTEND applications.</li>
+							<li>Develop BACKEND applications.</li>
 							<li>
 								Setup cloud infrastructure to deploy application
 								for Sandbox and Production.
