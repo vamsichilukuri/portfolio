@@ -39,8 +39,8 @@ export default function About() {
 					<span>Tools which I'm capable in Full Stack</span>
 					<div className="info-block">
 						<p>
-							i'm a Full-stack Web developer. i build <b>Web</b> &{" "}
-							<b>Mobile</b> applications. works with both the
+							I'm a Full-stack developer. i build <b>Web</b> &
+							<b> Mobile</b> applications. works with both the
 							frontend, backend and deployment of a website or
 							application. Provide an end-to-end service for 1+
 							years. Also work on microservices.

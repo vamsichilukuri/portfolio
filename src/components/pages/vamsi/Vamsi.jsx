@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import VWD from "./vamsi.jpeg";
+import VWD from "./images/vamsi.jpeg";
 import "./vamsi.scss";
 import { Grid } from "@material-ui/core";
 import Aos from "aos";
@@ -23,7 +23,7 @@ const Vamsi = () => {
 						<div className="info-block">
 							<p>
 								I'm a Full-stack developer. i build <b>Web</b> &
-								<b>Mobile</b> applications. works with both the
+								<b> Mobile</b> applications. works with both the
 								frontend, backend and deployment of a website or
 								application. Provide an end-to-end service for
 								1+ years. Also work on microservices.
