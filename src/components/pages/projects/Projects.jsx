@@ -4,20 +4,26 @@ import React from "react";
 import {
 	Grid,
 	Card,
-	CardActions,
+	// CardActions,
 	CardContent,
 	CardMedia,
-	Button,
+	// Button,
 	Typography,
 } from "@material-ui/core";
-import { GitHub, VisibilitySharp } from "@material-ui/icons";
+// import { GitHub, VisibilitySharp } from "@material-ui/icons";
 
 //-----> Image's & Icon's
-import TodoImage from "./images/todo.jpg";
-import ContactImage from "./images/contact_list.png";
-import SocialMedia from "./images/socail_media.png";
-import ChatBot from "./images/chat_bot.png";
-import SocialMedia2 from "./images/socailmedia.webp";
+// import TodoImage from "./images/todo.jpg";
+// import ContactImage from "./images/contact_list.png";
+// import SocialMedia from "./images/socail_media.png";
+// import ChatBot from "./images/chat_bot.png";
+// import SocialMedia2 from "./images/socailmedia.webp";
+import Vrcommerce from "./images/vrcommerce.png";
+import Bakekick from "./images/bakekick.png";
+import DigitalCards from "./images/digitalcards.png";
+import Mindcentral from "./images/mindcentral.png";
+import Kompound from "./images/kompound.png";
+import Howdyguru from "./images/howdyguru.png";
 
 //-----> SCSS
 import "./projects.scss";
@@ -25,97 +31,112 @@ import "./projects.scss";
 const Projects = () => {
 	const webProjects = [
 		{
-			name: "Todo",
-			description: "Make your day with challenging to finish your ToDo's",
+			name: "Bakekick",
+			description:
+				"Bakekick Makes Managing Orders & Connecting Bakers Easy. Sells breads and other products made of flour by using an oven or other concentrated heat source. ",
 			source: "https://github.com/vamsichilukuri/todo",
-			image: TodoImage,
+			image: Bakekick,
 		},
 		{
-			name: "Contact List",
+			name: "Mindcentral",
 			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+				"We care about mental health Client can anonymously find help and schedule sessions. Therapists can easily manage and grow their practice.",
 			source: "https://github.com/vamsichilukuri/todo",
-			image: ContactImage,
+			image: Mindcentral,
 		},
 		{
-			name: "Social Media",
+			name: "DigitalCards",
 			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+				"The NFT can be associated with a particular digital or physical asset (such as a file or a physical object) and a license to use the asset for a specified purpose.",
 			source: "https://github.com/vamsichilukuri/todo",
-			image: SocialMedia,
+			image: DigitalCards,
 		},
 		{
-			name: "Chat BOT",
+			name: "Howdyguru",
 			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+				"We provide three types of learning modes: Ready-made courses, Live 1-on-classes, Live group webinars. advanced filters such as course categories, subjects, topics and tutor",
 			source: "https://github.com/vamsichilukuri/todo",
-			image: ChatBot,
+			image: Howdyguru,
+		},
+		{
+			name: "Kompound",
+			description:
+				"Cryptocurrency exchanges are platforms that facilitate the trading of cryptocurrencies for other assets, including digital and fiat currencies. In effect, cryptocurrency exchanges act as an intermediary between a buyer and a seller and make money through commissions and transaction fees.",
+			source: "https://github.com/vamsichilukuri/todo",
+			image: Kompound,
+		},
+		{
+			name: "VR Commerce",
+			description:
+				"Create Virtual Tours that engage your audience Our editor is simple but packed with powerful features. With the PRO plan you can create unlimited tours, add labels, custom hotspots, background audio, interactive cards and floor plans. Create beautiful 360 tours that your users won't easily forget!",
+			source: "https://github.com/vamsichilukuri/todo",
+			image: Vrcommerce,
 		},
 	];
-	const mobileProjects = [
-		{
-			name: "Todo",
-			description: "Make your day with challenging to finish your ToDo's",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: TodoImage,
-		},
-		{
-			name: "Contact List",
-			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: ContactImage,
-		},
-		{
-			name: "Social Media",
-			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: SocialMedia2,
-		},
-		{
-			name: "Chat BOT",
-			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: ChatBot,
-		},
-	];
-	const microservicesProjects = [
-		{
-			name: "Todo",
-			description: "Make your day with challenging to finish your ToDo's",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: TodoImage,
-		},
-		{
-			name: "Contact List",
-			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: ContactImage,
-		},
-		{
-			name: "Social Media",
-			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: SocialMedia2,
-		},
-		{
-			name: "Chat BOT",
-			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			source: "https://github.com/vamsichilukuri/todo",
-			image: ChatBot,
-		},
-	];
+	// const mobileProjects = [
+	// 	{
+	// 		name: "Todo",
+	// 		description: "Make your day with challenging to finish your ToDo's",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: TodoImage,
+	// 	},
+	// 	{
+	// 		name: "Contact List",
+	// 		description:
+	// 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: ContactImage,
+	// 	},
+	// 	{
+	// 		name: "Social Media",
+	// 		description:
+	// 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: SocialMedia2,
+	// 	},
+	// 	{
+	// 		name: "Chat BOT",
+	// 		description:
+	// 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: ChatBot,
+	// 	},
+	// ];
+	// const microservicesProjects = [
+	// 	{
+	// 		name: "Todo",
+	// 		description: "Make your day with challenging to finish your ToDo's",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: TodoImage,
+	// 	},
+	// 	{
+	// 		name: "Contact List",
+	// 		description:
+	// 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: ContactImage,
+	// 	},
+	// 	{
+	// 		name: "Social Media",
+	// 		description:
+	// 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: SocialMedia2,
+	// 	},
+	// 	{
+	// 		name: "Chat BOT",
+	// 		description:
+	// 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
+	// 		source: "https://github.com/vamsichilukuri/todo",
+	// 		image: ChatBot,
+	// 	},
+	// ];
 	return (
 		<div className="projects_main">
 			<h1>Projects</h1>
 			<div className="all_projects_list">
 				<div className="web_projects">
-					<h2>Web</h2>
+					{/* <h2>Web</h2> */}
 					<Grid container className="projects">
 						{webProjects.map(
 							({ image, name, description, source }) => {
@@ -154,7 +175,7 @@ const Projects = () => {
 													{description}
 												</Typography>
 											</CardContent>
-											<CardActions className="card_buttons">
+											{/* <CardActions className="card_buttons">
 												<Button
 													variant="contained"
 													size="small"
@@ -181,15 +202,24 @@ const Projects = () => {
 												>
 													Visit
 												</Button>
-											</CardActions>
+											</CardActions> */}
 										</Card>
 									</Grid>
 								);
 							}
 						)}
 					</Grid>
+					<div className="code_quality">
+						<a
+							href="https://github.com/vamsichilukuri/blogpost.git"
+							target="_blank"
+							rel="noreferrer"
+						>
+							View code quality of a sample project
+						</a>
+					</div>
 				</div>
-				<div className="web_projects">
+				{/* <div className="web_projects">
 					<h2>Mobile</h2>
 					<Grid container className="projects">
 						{mobileProjects.map(
@@ -338,7 +368,7 @@ const Projects = () => {
 							}
 						)}
 					</Grid>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
