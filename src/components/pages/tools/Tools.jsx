@@ -218,7 +218,6 @@ export default function About() {
 							<img src={githubIcon} alt="githubIcon" />
 							<img src={gitLab} alt="gitLab" />
 							<img src={bitBucket} alt="bitBucket" />
-							<img src={gitIcon} alt="gitIcon" />
 							<img src={dockerIcon} alt="dockerIcon" />
 						</div>
 					</Grid>
