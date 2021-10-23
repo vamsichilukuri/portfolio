@@ -26,6 +26,16 @@ import githubIcon from "./icons/github.gif";
 import bitBucket from "./icons/bitbucket.png";
 import gitLab from "./icons/gitlab.png";
 import dynamoDB from "./icons/dynamoDB.png";
+// aws services icons
+import awsEc2 from "./icons/Amazon-EC2.jpg";
+import s3Icon from "./icons/s3.jpg";
+import Route53 from "./icons/amazon-route-53.jpg";
+import awsLambda from "./icons/aws-lambda.jpg";
+import cloudFront from "./icons/amazon-cloudfront.jpg";
+import awsCodeBuild from "./icons/code_build.png";
+import awsCodeDeploy from "./icons/aws-codedeploy.png";
+import awsELB from "./icons/elb-icon.png";
+import awsEKS from "./icons/AWS-EKS.png";
 
 //-----> SCSS
 import "./tools.scss";
@@ -79,6 +89,24 @@ export default function About() {
 									alt="reactNativeIcon"
 								/>
 							</div> */}
+
+							<div className="web-service-tools">
+								<h2>
+									WEB SERVER & PROCESS MANAGER & PACKAGE
+									MANAGER
+								</h2>
+								<h4> NGINX, PM2 & NPM</h4>
+								<img src={nginx} alt="nginx" />
+								<img
+									src={pm2Logo}
+									alt="pm2Logo"
+									style={{
+										position: "relative",
+										top: "-22px",
+									}}
+								/>
+								<img src={npmIcon} alt="npmIcon" />
+							</div>
 						</div>
 					</Grid>
 					<Grid
@@ -126,6 +154,22 @@ export default function About() {
 								alt="digitaloceanIcon"
 							/>
 							<div className="web-service-tools">
+								<h2>AWS SERVICES</h2>
+								<h4>
+									EC2, S3, ROUTE53, LAMBDA, CLOUDFRONT, CODE
+									BUILD, CODE DEPLOY, ELB, EKS
+								</h4>
+								<img src={awsEc2} alt="nginx" />
+								<img src={s3Icon} alt="nginx" />
+								<img src={Route53} alt="nginx" />
+								<img src={awsLambda} alt="nginx" />
+								<img src={cloudFront} alt="nginx" />
+								<img src={awsCodeBuild} alt="nginx" />
+								<img src={awsCodeDeploy} alt="nginx" />
+								<img src={awsELB} alt="nginx" />
+								<img src={awsEKS} alt="nginx" />
+							</div>
+							{/* <div className="web-service-tools">
 								<h2>
 									WEB SERVER & PROCESS MANAGER & PACKAGE
 									MANAGER
@@ -141,7 +185,7 @@ export default function About() {
 									}}
 								/>
 								<img src={npmIcon} alt="npmIcon" />
-							</div>
+							</div> */}
 						</div>
 					</Grid>
 					<Grid
@@ -169,11 +213,13 @@ export default function About() {
 							className="vcs"
 						>
 							<h2>VERSION CONTROL SYSTEM</h2>
-							<h4> GIT, GITHUB, GITLAB & BITBUCKET</h4>
+							<h4> GIT, GITHUB, GITLAB, BITBUCKET & DOCKERHUB</h4>
 							<img src={gitIcon} alt="gitIcon" />
 							<img src={githubIcon} alt="githubIcon" />
 							<img src={gitLab} alt="gitLab" />
 							<img src={bitBucket} alt="bitBucket" />
+							<img src={gitIcon} alt="gitIcon" />
+							<img src={dockerIcon} alt="dockerIcon" />
 						</div>
 					</Grid>
 				</Grid>
