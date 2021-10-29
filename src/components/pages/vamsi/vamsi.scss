@@ -10,6 +10,15 @@
 			font-size: 1.2rem;
 			color: rgba(235, 235, 235, 0.808);
 		}
+
+		@keyframes animate {
+			0% {
+				background-position: -500%;
+			}
+			100% {
+				background-position: 500%;
+			}
+		}
 		h1 {
 			font-size: 4rem;
 		}

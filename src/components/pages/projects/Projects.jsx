@@ -34,43 +34,49 @@ const Projects = () => {
 			name: "Bakekick",
 			description:
 				"Bakekick Makes Managing Orders & Connecting Bakers Easy. Sells breads and other products made of flour by using an oven or other concentrated heat source. ",
-			source: "https://github.com/vamsichilukuri/todo",
+			// source: "https://github.com/vamsichilukuri/todo",
 			image: Bakekick,
+			visit: "https://bakekick-5f0f6.web.app/#/",
 		},
 		{
 			name: "Mindcentral",
 			description:
 				"We care about mental health Client can anonymously find help and schedule sessions. Therapists can easily manage and grow their practice.",
-			source: "https://github.com/vamsichilukuri/todo",
+			// source: "https://github.com/vamsichilukuri/todo",
 			image: Mindcentral,
+			visit: "https://mindcentral.com/",
 		},
 		{
 			name: "DigitalCards",
 			description:
 				"The NFT can be associated with a particular digital or physical asset (such as a file or a physical object) and a license to use the asset for a specified purpose.",
-			source: "https://github.com/vamsichilukuri/todo",
+			// source: "https://github.com/vamsichilukuri/todo",
 			image: DigitalCards,
+			visit: "https://jetnft.com/",
 		},
 		{
 			name: "Howdyguru",
 			description:
 				"We provide three types of learning modes: Ready-made courses, Live 1-on-classes, Live group webinars. advanced filters such as course categories, subjects, topics and tutor",
-			source: "https://github.com/vamsichilukuri/todo",
+			// source: "https://github.com/vamsichilukuri/todo",
 			image: Howdyguru,
+			visit: "https://howdyguru.com/",
 		},
 		{
 			name: "Kompound",
 			description:
 				"Cryptocurrency exchanges are platforms that facilitate the trading of cryptocurrencies for other assets, including digital and fiat currencies. In effect, cryptocurrency exchanges act as an intermediary between a buyer and a seller and make money through commissions and transaction fees.",
-			source: "https://github.com/vamsichilukuri/todo",
+			// source: "https://github.com/vamsichilukuri/todo",
 			image: Kompound,
+			visit: "https://vamsichilukuri.netlify.app/#/",
 		},
 		{
 			name: "VR Commerce",
 			description:
 				"Create Virtual Tours that engage your audience Our editor is simple but packed with powerful features. With the PRO plan you can create unlimited tours, add labels, custom hotspots, background audio, interactive cards and floor plans. Create beautiful 360 tours that your users won't easily forget!",
-			source: "https://github.com/vamsichilukuri/todo",
+			// source: "https://github.com/vamsichilukuri/todo",
 			image: Vrcommerce,
+			visit: "https://app.vrcommerce.io/",
 		},
 	];
 	// const mobileProjects = [
@@ -139,7 +145,7 @@ const Projects = () => {
 					{/* <h2>Web</h2> */}
 					<Grid container className="projects">
 						{webProjects.map(
-							({ image, name, description, source }) => {
+							({ image, name, description, visit }) => {
 								return (
 									<Grid
 										item
@@ -153,6 +159,9 @@ const Projects = () => {
 											className="card"
 											data-aos="zoom-in"
 											data-aos-duration="1500"
+											onClick={() =>
+												window.open(visit, "_blank")
+											}
 										>
 											<CardMedia
 												component="img"
