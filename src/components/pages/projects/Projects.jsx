@@ -70,7 +70,7 @@ const Projects = () => {
 				"Cryptocurrency exchanges are platforms that facilitate the trading of cryptocurrencies for other assets, including digital and fiat currencies. In effect, cryptocurrency exchanges act as an intermediary between a buyer and a seller and make money through commissions and transaction fees.",
 			// source: "https://github.com/vamsichilukuri/todo",
 			image: Kompound,
-			visit: "https://vamsichilukuri.netlify.app/#/",
+			visit: "https://www.kompound.app/",
 		},
 		{
 			name: "VR Commerce",
