@@ -4,13 +4,15 @@ import React from "react";
 import {
 	Grid,
 	Card,
-	// CardActions,
+	CardActions,
+	CardActionArea,
 	CardContent,
 	CardMedia,
-	// Button,
+	Button,
 	Typography,
 } from "@material-ui/core";
 // import { GitHub, VisibilitySharp } from "@material-ui/icons";
+import { VisibilitySharp } from "@material-ui/icons";
 
 //-----> Image's & Icon's
 // import TodoImage from "./images/todo.jpg";
@@ -159,31 +161,52 @@ const Projects = () => {
 											className="card"
 											data-aos="zoom-in"
 											data-aos-duration="1500"
-											onClick={() =>
-												window.open(visit, "_blank")
-											}
 										>
-											<CardMedia
-												component="img"
-												height="140"
-												image={image}
-												alt="green iguana"
-											/>
-											<CardContent className="card_content">
-												<Typography
-													gutterBottom
-													variant="h5"
-													component="div"
+											<CardActionArea>
+												<CardMedia
+													component="img"
+													height="140"
+													image={image}
+													alt="green iguana"
+												/>
+												<CardContent className="card_content">
+													<Typography
+														gutterBottom
+														variant="h5"
+														component="div"
+													>
+														{name}
+													</Typography>
+													<Typography
+														variant="body2"
+														color="text.secondary"
+													>
+														{description}
+													</Typography>
+												</CardContent>
+											</CardActionArea>
+											<CardActions className="card_buttons">
+												<Button
+													variant="contained"
+													size="small"
+													endIcon={
+														<VisibilitySharp />
+													}
+													style={{
+														backgroundColor:
+															"#cfcfcf",
+														fontWeight: "600",
+													}}
+													onClick={() =>
+														window.open(
+															visit,
+															"_blank"
+														)
+													}
 												>
-													{name}
-												</Typography>
-												<Typography
-													variant="body2"
-													color="text.secondary"
-												>
-													{description}
-												</Typography>
-											</CardContent>
+													Visit
+												</Button>
+											</CardActions>
 											{/* <CardActions className="card_buttons">
 												<Button
 													variant="contained"
