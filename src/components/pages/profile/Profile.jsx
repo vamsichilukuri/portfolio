@@ -124,14 +124,28 @@ function Profile() {
 					>
 						<h2>WORK EXPERIENCE</h2>
 						<Grid container className="companies_section">
-							<Grid item xs={3} sm={3} md={3} lg={3}>
+							<Grid
+								item
+								xs={3}
+								sm={3}
+								md={3}
+								lg={3}
+								className="companies_section_left"
+							>
 								<ul>
 									<li>Company</li>
 									<li>Role</li>
 									<li>Joined</li>
 								</ul>
 							</Grid>
-							<Grid item xs={1} sm={1} md={1} lg={1}>
+							<Grid
+								item
+								xs={1}
+								sm={1}
+								md={1}
+								lg={1}
+								className="companies_section_middle"
+							>
 								<ul>
 									<li>:</li>
 									<li>:</li>

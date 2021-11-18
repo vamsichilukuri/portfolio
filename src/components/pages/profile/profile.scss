@@ -61,6 +61,22 @@
 							color: rgba(235, 235, 235, 0.808);
 						}
 					}
+					@media only screen and (max-width: 768px) {
+						.companies_section_left {
+							ul {
+								li:nth-child(2) {
+									margin-top: 25px;
+								}
+							}
+						}
+						.companies_section_middle {
+							ul {
+								li:nth-child(2) {
+									margin-top: 25px;
+								}
+							}
+						}
+					}
 				}
 				span {
 					font-weight: 400;
