@@ -49,6 +49,19 @@
 						color: rgba(235, 235, 235, 0.808);
 					}
 				}
+				.resume_block {
+					text-align: center;
+					margin: 20px 0;
+
+					a {
+						font-size: x-large;
+						margin-left: 5px;
+						color: #fff;
+						cursor: pointer;
+						font-weight: bold;
+						text-shadow: -5px ​5px 10px #000000;
+					}
+				}
 			}
 
 			.experience {

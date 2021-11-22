@@ -6,6 +6,7 @@ import { Grid } from "@material-ui/core";
 //-----> Image's & Icon's
 // import Vamsi1 from "./images/vamsi1.jpeg";
 import Vamsi2 from "./images/vamsi2.jpg";
+// import resume from "https://docs.google.com/document/d/1gaHqGdVPN3ok8Seg4rCxHPQb7cBN0EBg/edit?rtpof=true";
 
 //-----> SCSS
 import "./profile.scss";
@@ -187,6 +188,16 @@ function Profile() {
 								Assist collegue's on road blocks in the project.
 							</li>
 						</ul>
+
+						<div className="resume_block">
+							<a
+								href="https://docs.google.com/document/d/1gaHqGdVPN3ok8Seg4rCxHPQb7cBN0EBg/edit?usp=sharing&ouid=106070228097602070334&rtpof=true&sd=true"
+								target="_blank"
+								rel="noreferrer"
+							>
+								View Resume
+							</a>
+						</div>
 					</div>
 				</Grid>
 			</Grid>
