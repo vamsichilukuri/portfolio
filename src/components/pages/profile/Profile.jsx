@@ -6,7 +6,7 @@ import { Grid } from "@material-ui/core";
 //-----> Image's & Icon's
 // import Vamsi1 from "./images/vamsi1.jpeg";
 import Vamsi2 from "./images/vamsi2.jpg";
-// import resume from "https://docs.google.com/document/d/1gaHqGdVPN3ok8Seg4rCxHPQb7cBN0EBg/edit?rtpof=true";
+import resume from "./documents/VamsiFullStackDev.docx";
 
 //-----> SCSS
 import "./profile.scss";
@@ -191,11 +191,12 @@ function Profile() {
 
 						<div className="resume_block">
 							<a
-								href="https://docs.google.com/document/d/1gaHqGdVPN3ok8Seg4rCxHPQb7cBN0EBg/edit?usp=sharing&ouid=106070228097602070334&rtpof=true&sd=true"
+								// href="https://docs.google.com/document/d/1gaHqGdVPN3ok8Seg4rCxHPQb7cBN0EBg/edit?usp=sharing&ouid=106070228097602070334&rtpof=true&sd=true"
+								href={resume}
 								target="_blank"
 								rel="noreferrer"
 							>
-								View Resume
+								Download My Resume
 							</a>
 						</div>
 					</div>
