@@ -26,7 +26,7 @@ const Vamsi = () => {
 								<b> Mobile</b> applications. works with both the
 								frontend, backend and deployment of a website or
 								application. Provide an end-to-end service for
-								2+ years. Also work on microservices.
+								1.6 years. Also work on microservices.
 							</p>
 						</div>
 					</div>

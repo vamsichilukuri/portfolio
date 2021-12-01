@@ -4,7 +4,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 
 //-----> Image's & Icon's
-// import angularIcon from "./icons/angular.png";
+import angularIcon from "./icons/angular.png";
 import awsIcon from "./icons/amazon-web-services.png";
 import css3Icon from "./icons/css3.png";
 import digitaloceanIcon from "./icons/digitalocean.png";
@@ -55,7 +55,7 @@ export default function About() {
 							I'm a Full-stack developer. i build <b>Web</b> &
 							<b> Mobile</b> applications. works with both the
 							frontend, backend and deployment of a website or
-							application. Provide an end-to-end service for 2+
+							application. Provide an end-to-end service for 1.6
 							years. Also work on microservices.
 						</p>
 					</div>
@@ -78,9 +78,9 @@ export default function About() {
 								<img src={javascriptIcon} alt="javascript" />
 							</div>
 							<div className="web-frameworks-block">
-								<h4> REACT.JS </h4>
+								<h4> REACT.JS & ANGULAR </h4>
 								<img src={reactJsIcon} alt="reactJs" />
-								{/* <img src={angularIcon} alt="angular" /> */}
+								<img src={angularIcon} alt="angular" />
 							</div>
 							{/* <div className="mobile-frameworks-block">
 								<h4>REACT NATIVE </h4>
