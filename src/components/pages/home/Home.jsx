@@ -7,6 +7,7 @@ import Contact from "../contact/Contact";
 import Profile from "../profile/Profile";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
+import Apperciations from "../apperciations/Apperciation";
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 			<Tools />
 			<Profile />
 			<Skills />
+			<Apperciations />
 			<Contact />
 		</div>
 	);

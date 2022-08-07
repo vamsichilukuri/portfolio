@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import VWD from "./images/vamsi.jpeg";
+// import VWD from "./images/vamsi.jpeg";
+import VWD from "../vamsi/images/vamsi.png";
 import "./vamsi.scss";
 import { Grid } from "@material-ui/core";
 import Aos from "aos";

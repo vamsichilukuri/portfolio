@@ -9,6 +9,7 @@ import Projects from "./components/pages/projects/Projects";
 import Contact from "./components/pages/contact/Contact";
 import Tools from "./components/pages/tools/Tools";
 import Profile from "./components/pages/profile/Profile";
+import Apperciations from "./components/pages/apperciations/Apperciation";
 
 //-----> SCSS
 import "./App.css";
@@ -25,6 +26,11 @@ function App() {
 					<Route exact path="/contact" component={Contact} />
 					<Route exact path="/tools" component={Tools} />
 					<Route exact path="/profile" component={Profile} />
+					<Route
+						exact
+						path="/apperciations"
+						component={Apperciations}
+					/>
 				</Switch>
 			</Router>
 		</div>

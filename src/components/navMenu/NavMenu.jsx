@@ -90,6 +90,16 @@ export default function NavMenu() {
 						Profile
 					</NavLink>
 				</li>
+				<li>
+					<NavLink
+						to="apperciations"
+						onClick={() => {
+							setMenuState(!menuState);
+						}}
+					>
+						Apperciations
+					</NavLink>
+				</li>
 			</ul>
 		</div>
 	);
