@@ -55,7 +55,7 @@ export default function About() {
 							I'm a Full-stack developer. i build <b>Web</b> &
 							<b> Mobile</b> applications. works with both the
 							frontend, backend and deployment of a website or
-							application. Provide an end-to-end service for 1.6
+							application. Provide an end-to-end service for 2.6
 							years. Also work on microservices.
 						</p>
 					</div>

@@ -81,7 +81,7 @@ function Profile() {
 									<li>Male</li>
 									<li>Full Stack Developer</li>
 									<li>Software ( IT )</li>
-									<li>1.6 years</li>
+									<li>2.6 years</li>
 									<li>Indian</li>
 									<li>English, Telugu</li>
 									<li>Panguluru ( Village ),</li>
