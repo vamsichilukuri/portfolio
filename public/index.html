@@ -1,60 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
-		<meta
-			name="description"
-			content="This is my portfolio. here you can know who i am."
-		/>
-		<link rel="apple-touch-icon" href="%PUBLIC_URL%/vamsi.png" />
-		<!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Stylish&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Galdeano&display=swap"
-			rel="stylesheet"
-		/>
-		<!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-		<title>Vamsi's Portfolio</title>
-	</head>
-	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
-		<div id="root"></div>
-		<!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+        <title>Portfolio Rebuilding</title>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family:
+                    Inter,
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    sans-serif;
+            }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    --></body>
+            body {
+                background: #050816;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                overflow: hidden;
+                position: relative;
+            }
+
+            /* Background Glow */
+
+            body::before {
+                content: "";
+                position: absolute;
+                width: 700px;
+                height: 700px;
+                background: radial-gradient(circle, #4f46e540, transparent 70%);
+                top: -250px;
+                right: -250px;
+                filter: blur(30px);
+            }
+
+            body::after {
+                content: "";
+                position: absolute;
+                width: 600px;
+                height: 600px;
+                background: radial-gradient(circle, #06b6d440, transparent 70%);
+                bottom: -220px;
+                left: -220px;
+                filter: blur(40px);
+            }
+
+            .container {
+                position: relative;
+                z-index: 10;
+                max-width: 760px;
+                padding: 50px;
+                text-align: center;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 10px 20px;
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 999px;
+                color: #8b9cff;
+                font-size: 0.9rem;
+                margin-bottom: 30px;
+                backdrop-filter: blur(10px);
+            }
+
+            h1 {
+                font-size: 4rem;
+                line-height: 1.1;
+                margin-bottom: 20px;
+                font-weight: 800;
+            }
+
+            .gradient {
+                background: linear-gradient(90deg, #6366f1, #06b6d4, #22c55e);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            p {
+                color: #9ca3af;
+                font-size: 1.15rem;
+                line-height: 1.8;
+                margin-bottom: 40px;
+            }
+
+            .card {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                gap: 18px;
+                margin-bottom: 40px;
+            }
+
+            .item {
+                padding: 18px;
+                background: rgba(255, 255, 255, 0.05);
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                border-radius: 18px;
+                backdrop-filter: blur(20px);
+            }
+
+            .item h3 {
+                margin-bottom: 8px;
+                font-size: 1rem;
+            }
+
+            .item p {
+                margin: 0;
+                font-size: 0.9rem;
+                color: #a1a1aa;
+            }
+
+            .footer {
+                color: #6b7280;
+                font-size: 0.95rem;
+            }
+
+            .footer span {
+                color: white;
+                font-weight: 600;
+            }
+
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 2.7rem;
+                }
+
+                .container {
+                    padding: 30px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="badge">🚧 Portfolio Under Reconstruction</div>
+
+            <h1>
+                Building Something
+                <span class="gradient">Extraordinary.</span>
+            </h1>
+
+            <p>
+                I'm completely rebuilding my portfolio from the ground up to
+                better showcase my engineering journey, AI projects, and future
+                vision. This is more than a redesign—it's a new experience built
+                with modern technologies and a product-first mindset.
+            </p>
+
+            <div class="card">
+                <div class="item">
+                    <h3>⚡ Modern Experience</h3>
+                    <p>Faster, cleaner, and built for performance.</p>
+                </div>
+
+                <div class="item">
+                    <h3>🤖 AI Projects</h3>
+                    <p>Production-ready AI applications and experiments.</p>
+                </div>
+
+                <div class="item">
+                    <h3>🚀 Project TITAN</h3>
+                    <p>
+                        An Industrial AI Platform for the future of
+                        manufacturing.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h3>💻 Engineering Journey</h3>
+                    <p>Projects, architecture, blogs, and open-source work.</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                Thank you for visiting.<br /><br />
+                See you soon.
+                <br />
+                <br />
+                <span> — Vamsi Chilukuri</span>
+            </div>
+        </div>
+    </body>
 </html>
